@@ -2,7 +2,7 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-
+//Haloo
 struct Landmark: Hashable, Codable {
     var id: Int
     var name: String
