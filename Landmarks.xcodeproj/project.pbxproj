@@ -89,6 +89,7 @@
 		3FD7BAA52BE4906C00E0CA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B132C2BDA179F0050E439 /* Assets.xcassets */; };
 		3FD7BAA92BE4927C00E0CA22 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7BAA82BE4927C00E0CA22 /* LandmarkCommands.swift */; };
 		3FD7BAAA2BE4927C00E0CA22 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7BAA82BE4927C00E0CA22 /* LandmarkCommands.swift */; };
+		3FD7BAAC2BE4942E00E0CA22 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7BAAB2BE4942E00E0CA22 /* LandmarkSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -208,6 +209,7 @@
 		3FD7BA8D2BE48CD000E0CA22 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = SOURCE_ROOT; };
 		3FD7BA8F2BE48E0300E0CA22 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		3FD7BAA82BE4927C00E0CA22 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		3FD7BAAB2BE4942E00E0CA22 /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -367,6 +369,7 @@
 			isa = PBXGroup;
 			children = (
 				3F9954E72BE35BFC00582EEF /* LandmarkDetail.swift */,
+				3FD7BAAB2BE4942E00E0CA22 /* LandmarkSettings.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -851,6 +854,7 @@
 			files = (
 				3FD7BA7F2BE48B1B00E0CA22 /* LandmarkList.swift in Sources */,
 				3FD7BA802BE48B1B00E0CA22 /* MapView.swift in Sources */,
+				3FD7BAAC2BE4942E00E0CA22 /* LandmarkSettings.swift in Sources */,
 				3FD7BA812BE48B1B00E0CA22 /* LandmarksApp.swift in Sources */,
 				3FD7BA822BE48B1B00E0CA22 /* ModelData.swift in Sources */,
 				3FD7BAAA2BE4927C00E0CA22 /* LandmarkCommands.swift in Sources */,
