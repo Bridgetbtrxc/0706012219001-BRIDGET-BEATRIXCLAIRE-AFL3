@@ -37,6 +37,7 @@
 		3F9955042BE3836900582EEF /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9954FF2BE3836900582EEF /* HikeDetail.swift */; };
 		3F9955052BE3836900582EEF /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9955002BE3836900582EEF /* HikeGraph.swift */; };
 		3F9955062BE3836900582EEF /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9955012BE3836900582EEF /* HikeView.swift */; };
+		3FD7BA0E2BE4751B00E0CA22 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7BA0D2BE4751B00E0CA22 /* CategoryItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		3F9954FF2BE3836900582EEF /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		3F9955002BE3836900582EEF /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		3F9955012BE3836900582EEF /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		3FD7BA0D2BE4751B00E0CA22 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				3F9954F72BE3811F00582EEF /* Badges */,
 				3F6894D22BE471EC003109FD /* CategoryHome.swift */,
 				3F6894D42BE4725E003109FD /* CategoryRow.swift */,
+				3FD7BA0D2BE4751B00E0CA22 /* CategoryItem.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 				3F9954F92BE3819800582EEF /* HexagonParameters.swift in Sources */,
 				3F9954E62BE35AF600582EEF /* LandmarkList.swift in Sources */,
 				3F9955042BE3836900582EEF /* HikeDetail.swift in Sources */,
+				3FD7BA0E2BE4751B00E0CA22 /* CategoryItem.swift in Sources */,
 				3F3B132B2BDA179E0050E439 /* Item.swift in Sources */,
 				3F3B13272BDA179E0050E439 /* LandmarksApp.swift in Sources */,
 				3F9954F22BE3809200582EEF /* BadgeSymbol.swift in Sources */,
