@@ -1,21 +1,28 @@
-//
-//  Data.swift
-//  Landmarks
-//
-//  Created by student on 25/04/24.
-//
-
 import Foundation
 
-var landmarks: [Landmark] = load("landmarkData.json")
+
+@Observable
+class ModelData {
+    var landmarks: [Landmark] = load("landmarkData.json")
+    var hikes: [Hike] = load("hikeData.json")
+
+
+    var categories: [String: [Landmark]] {
+        Dictionary(
+            grouping: landmarks,
+            by: { $0.category.rawValue }
+        )
+    }
+}
+
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
 
 
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
-    else {
-        fatalError("Couldn't find \(filename) in main bundle.")
+        else {
+            fatalError("Couldn't find \(filename) in main bundle.")
     }
 
 
