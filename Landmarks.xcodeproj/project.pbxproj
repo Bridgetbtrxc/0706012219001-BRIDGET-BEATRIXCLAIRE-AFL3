@@ -46,6 +46,7 @@
 		3FD7BA1E2BE47C3400E0CA22 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7BA1D2BE47C3400E0CA22 /* PageViewController.swift */; };
 		3FD7BA202BE47D1A00E0CA22 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7BA1F2BE47D1A00E0CA22 /* FeatureCard.swift */; };
 		3FD7BA222BE47D7100E0CA22 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7BA212BE47D7100E0CA22 /* PageView.swift */; };
+		3FD7BA242BE47F7600E0CA22 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD7BA232BE47F7600E0CA22 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		3FD7BA1D2BE47C3400E0CA22 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		3FD7BA1F2BE47D1A00E0CA22 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		3FD7BA212BE47D7100E0CA22 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		3FD7BA232BE47F7600E0CA22 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				3FD7BA1D2BE47C3400E0CA22 /* PageViewController.swift */,
+				3FD7BA232BE47F7600E0CA22 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 				3F6894D32BE471EC003109FD /* CategoryHome.swift in Sources */,
 				3FD7BA132BE478B400E0CA22 /* ProfileHost.swift in Sources */,
 				3FD7BA172BE4792700E0CA22 /* HikeBadge.swift in Sources */,
+				3FD7BA242BE47F7600E0CA22 /* PageControl.swift in Sources */,
 				3F3B13552BDA20D40050E439 /* MapView.swift in Sources */,
 				3F6894D52BE4725E003109FD /* CategoryRow.swift in Sources */,
 				3F9954F92BE3819800582EEF /* HexagonParameters.swift in Sources */,
